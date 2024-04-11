@@ -22,7 +22,7 @@ export default function Home() {
 
         <Card id="home">
           <div className="pl-14 md:pl-[12.5rem] flex flex-col min-w-[50%}">
-            <h1 className="dark:text-white text-black self-start whitespace-nowrap font-black md:text-5xl text-4xl pb-2">Hi, I'm Sajan</h1>
+            <h1 className="dark:text-white text-black self-start whitespace-nowrap font-black md:text-5xl text-4xl pb-2">Hi, I&apos;m Sajan</h1>
             <h2 className="dark:text-white text-black whitespace-nowrap font-bold text-2xl md:text-3xl pb-2">Web Developer</h2>
             <p className='dark:text-white pl-1 text-lg font-medium'>A Junior Full-Stack Developer focused on building innovative and scalable web solutions.</p>
           </div>
