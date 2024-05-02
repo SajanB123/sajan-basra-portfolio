@@ -11,7 +11,7 @@ const icons = [
   
   export default function ScrollingIcons() {
     return (
-      <div className="relative h-[184px] lg:h-[252px] w-fit overflow-hidden">
+      <div className="hidden md:block relative h-[184px] lg:h-[252px] w-fit overflow-hidden">
         <div className="animate-scrollAnimation space-y-4">
           {icons.map((icon, index) => (
             <img key={index} src={icon} alt="codingIcon" className="h-6 lg:h-12 mx-auto dark:filter dark:invert" />
