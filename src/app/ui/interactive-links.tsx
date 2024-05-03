@@ -17,13 +17,13 @@ const InteractiveLinks = () => {
   return (
     <ul className="flex flex-row space-x-8">
       <li className='hidden md:block'>
-        <a onClick={() => scrollToElement('home')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600">Home</a>
+        <a onClick={() => scrollToElement('home')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600 dark:text-white text-black">Home</a>
       </li>
       <li className='hidden md:block'>
-        <a onClick={() => scrollToElement('projects')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600">Projects</a>
+        <a onClick={() => scrollToElement('projects')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600 dark:text-white text-black">Projects</a>
       </li>
       <li className='hidden md:block'>
-        <a onClick={() => scrollToElement('about')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600">About</a>
+        <a onClick={() => scrollToElement('about')} className="font-semibold hover:cursor-pointer dark:hover:text-gray-300 hover:text-gray-600 dark:text-white text-black">About</a>
       </li>
     </ul>
   );

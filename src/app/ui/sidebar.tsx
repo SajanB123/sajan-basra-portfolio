@@ -20,7 +20,7 @@ const Sidebar = () => {
       {/* Hamburger Icon */}
       <div className="md:hidden" onClick={() => setIsOpen(true)}>
         <svg
-          className="w-6 h-6"
+          className="w-6 h-6 dark:text-white text-black"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -41,16 +41,16 @@ const Sidebar = () => {
           {/* Close Button */}
           <div className="flex justify-start pl-[1.6rem] pt-[1.8rem]">
             <button onClick={() => setIsOpen(false)}>
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-6 h-6 dark:text-white text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
           </div>
 
           <ul className="flex flex-col space-y-4 p-4 mt-6">
-            <li className='pl-4 pb-4'><a onClick={() => scrollToElement('home')}>Home</a></li>
-            <li className='pl-4 pb-4'><a onClick={() => scrollToElement('projects')}>Projects</a></li>
-            <li className='pl-4 pb-4'><a onClick={() => scrollToElement('about')}>About</a></li>
+            <li className='pl-4 pb-4 dark:text-white text-black'><a onClick={() => scrollToElement('home')}>Home</a></li>
+            <li className='pl-4 pb-4 dark:text-white text-black'><a onClick={() => scrollToElement('projects')}>Projects</a></li>
+            <li className='pl-4 pb-4 dark:text-white text-black'><a onClick={() => scrollToElement('about')}>About</a></li>
           </ul>
         </div>
       )}

@@ -11,7 +11,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ title, imageUrl, description, href }: ProjectCardProps) {
 
     return (
-      <div className={`bg-white dark:bg-gray-900 dark:text-white shadow-md rounded-lg p-4 m-4 hover:transform hover:scale-105 transition-transform duration-300 md:w-[32rem] md:h-[24rem]`}>
+      <div className={`bg-white dark:bg-gray-900 dark:text-white text-black shadow-md rounded-lg p-4 m-4 hover:transform hover:scale-105 transition-transform duration-300 md:w-[32rem] md:h-[24rem]`}>
           <div>
               <Link href={href} passHref>
                       <Image src={imageUrl} alt={title} width={400} height={300} className="rounded-t-lg bg-white ml-auto mr-auto w-[32rem]" />
