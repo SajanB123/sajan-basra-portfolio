@@ -12,6 +12,7 @@ export default function Home() {
 
   const projects = [
     { title: "NextJS Acme Site", imageUrl: "/nextjs-acme-dashboard.svg", description: "A dynamic dashboard created by completing a course on NextJS. user@nextmail.com, 123456", href:"https://nextjs-dashboard-3mx9dltaj-sajanb123.vercel.app/login" },
+    { title: "NextJS Acme Site Github Repo", imageUrl: "/nextjs-acme-github-repo.svg", description: "The Github repo/code for the NextJS Acme Site.", href:"https://github.com/SajanB123/nextjs--dashboard" },
     { title: "Sajan Basra's Portfolio Site", imageUrl: "/sajan-portfolio-github-repo.svg", description: "The Github repo/code for this site.", href:"https://github.com/SajanB123/sajan-basra-portfolio" },
   ];
 
